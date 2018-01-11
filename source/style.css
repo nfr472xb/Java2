@@ -166,7 +166,7 @@ buttons {
  */
 
 #footer {
-  background-color: #0288D1;
+  background-color: #40c4ff;
   color: #fff;
 }
 
@@ -241,4 +241,9 @@ textarea.materialize-textarea:focus:not([readonly])
     margin-left: 50px !important;
     max-width: 200px !important;
     border-bottom: 1px solid #fff !important;
+    top: 8px;
 }
+
+input[type=search]::-webkit-input-placeholder
+ { color: white;
+ }
