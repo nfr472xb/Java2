@@ -129,7 +129,7 @@ buttons {
  */
 
 #sidedrawer-brand {
-  padding-left: 20px;
+	text-align:center;
 }
 
 #sidedrawer ul {
@@ -148,6 +148,8 @@ buttons {
   display: block;
   padding: 15px 22px;
   cursor: pointer;
+  color: rgba(0,0,0,0.87);
+  text-decoration:none;
 }
 
 #sidedrawer strong:hover {
@@ -229,4 +231,14 @@ textarea.materialize-textarea:focus:not([readonly])
 	border-bottom: 1px solid #29b6f6 !important;
     -webkit-box-shadow: 0 1px 0 0 #29b6f6 !important;
     box-shadow: 0 1px 0 0 #29b6f6 !important;
+
+}
+
+
+.top-search{
+	position: absolute;
+    color: #fff;
+    margin-left: 50px !important;
+    max-width: 200px !important;
+    border-bottom: 1px solid #fff !important;
 }
