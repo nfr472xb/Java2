@@ -48,3 +48,13 @@ jQuery(function($) {
     $(this).next().slideToggle(200);
   });
 });
+
+(function () {
+  var height = $(document).height();
+  var background = $('.background-image');
+  background.css('min-height', height);
+})();(function () {
+  var height = $(document).height();
+  var background = $('.background-image');
+  background.css('min-height', height);
+})();

@@ -172,3 +172,61 @@ buttons {
   color: #fff;
   text-decoration: underline;
 }
+
+
+
+
+/*login*/
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.background-image {
+  background-position: center;
+  background-size: cover;
+  display: block;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+.title h3 {
+  margin: 0;
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  top: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), 
+input[type=password]:not(.browser-default):focus:not([readonly]), 
+input[type=email]:not(.browser-default):focus:not([readonly]), 
+input[type=url]:not(.browser-default):focus:not([readonly]), 
+input[type=time]:not(.browser-default):focus:not([readonly]), 
+input[type=date]:not(.browser-default):focus:not([readonly]), 
+input[type=datetime]:not(.browser-default):focus:not([readonly]), 
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]), 
+input[type=tel]:not(.browser-default):focus:not([readonly]), 
+input[type=number]:not(.browser-default):focus:not([readonly]), 
+input[type=search]:not(.browser-default):focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly])
+{
+	
+	border-bottom: 1px solid #29b6f6 !important;
+    -webkit-box-shadow: 0 1px 0 0 #29b6f6 !important;
+    box-shadow: 0 1px 0 0 #29b6f6 !important;
+}
